@@ -28,4 +28,4 @@ class TruecallerGoldApp(App):
             self.label.text = "Check Internet Connection"
 
 if __name__ == "__main__":
-    TruecallerGoldApp().run()
+    TruecallerGoldApp().run() 
