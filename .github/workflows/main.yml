@@ -16,6 +16,7 @@ jobs:
       - name: Build with Buildozer
         run: |
           export PATH=$PATH:$HOME/.local/bin
+          # ده السطر اللي هيخلي المصنع يوافق على الشروط لوحده
           yes | buildozer android debug
         continue-on-error: false
 
