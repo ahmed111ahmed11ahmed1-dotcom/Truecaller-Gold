@@ -16,8 +16,8 @@ jobs:
       - name: Build with Buildozer
         run: |
           export PATH=$PATH:$HOME/.local/bin
-          # ده السطر اللي هيخلي المصنع يوافق على الشروط لوحده
-          yes | buildozer android debug
+          # إضافة -v بتخلي السيرفر يفضل يطبع معلومات وما يفصلش أبداً
+          yes | buildozer -v android debug
         continue-on-error: false
 
       - name: Upload APK
